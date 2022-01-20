@@ -38,3 +38,12 @@ module.exports = {
   ]
 }
 
+## Running the first test in Vue with Jest
+
+07° jest.config.js
+
+module.exports = {
+  moduleNameMapper: {
+    "^@/(.*)$": "<rootDir>/$1",
+  }
+};
